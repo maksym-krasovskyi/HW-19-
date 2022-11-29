@@ -1,0 +1,18 @@
+@import 'vendor/owl.theme.default';
+
+@import 'owl.carousel/dist/assets/owl.carousel.css';
+
+@import '@fancyapps/ui/dist/fancybox.css';
+@import 'justifiedGallery/dist/css/justifiedGallery.css';
+@import 'lightgallery/css/lightgallery.css';
+
+@import 'base/reset';
+@import 'abstracts/slickfix';
+@import 'components/carousel';
+@import 'components/masonry';
+@import 'components/fancyapps';
+@import 'components/lightgallery';
+
+@import '~slick-carousel/slick/slick';
+@import '~slick-carousel/slick/slick-theme';
+@import '~swiper/css/bundle';

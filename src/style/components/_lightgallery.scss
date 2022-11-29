@@ -1,0 +1,23 @@
+.lightgallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1024px;
+    margin: 100px auto;
+}
+
+.gallery-container {
+    margin: 50px 0 0;
+}
+
+.header .lead {
+    max-width: 620px;
+}
+
+/** Below CSS is completely optional **/
+
+.gallery-item {
+    width: 200px;
+    padding: 5px;
+}

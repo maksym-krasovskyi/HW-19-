@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    line-height: 1;
+    font-size: 14px;
+    text-size-adjust: 100%;
+    background: white;
+    font-family: 'Graphik LC TT', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}

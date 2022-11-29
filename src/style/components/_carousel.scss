@@ -1,0 +1,35 @@
+.swiper-carousel,
+.owl,
+.slick-corousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 0;
+    flex-direction: column;
+}
+
+.corousel {
+    display: flex;
+    max-width: 1024px;
+    padding: 50px;
+
+    &__item {
+        max-height: 800px;
+    }
+}
+
+.owl-carousel {
+    display: flex;
+    max-width: 1024px;
+    padding: 50px;
+}
+
+.owl-prev,
+.owl-next {
+    font-size: 30px;
+}
+
+.swiper {
+    margin: 50px;
+    width: 1024px;
+}
